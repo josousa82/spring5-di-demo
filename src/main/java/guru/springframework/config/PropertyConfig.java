@@ -14,7 +14,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 @PropertySource("classpath:datasource.properties")
 public class PropertyConfig {
 
-    @Value("${guru.username}")
+    @Value("${guru.user}")
     String user;
 
     @Value("${guru.password}")
@@ -33,8 +33,8 @@ public class PropertyConfig {
     }
 
     @Bean
-    public static PropertySourcesPlaceholderConfigurer properties(){
-        PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer =new PropertySourcesPlaceholderConfigurer();
+    public static PropertySourcesPlaceholderConfigurer propertiesSource(){
+        PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
         return  propertySourcesPlaceholderConfigurer;
     }
 }
