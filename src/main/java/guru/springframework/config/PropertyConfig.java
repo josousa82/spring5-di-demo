@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
  * Created by jt on 6/7/17.
  */
 @Configuration
-@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
+@PropertySource({"classpath:datasource.properties"})
 public class PropertyConfig {
 
     @Value("${guru.username}")
