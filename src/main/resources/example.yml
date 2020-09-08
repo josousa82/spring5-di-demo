@@ -1,0 +1,46 @@
+# this is a comment
+
+# array of names
+names:
+  - John
+  - Paul
+  - Ringo
+
+# String
+pound_sign: "#"
+
+# create a book with properties with properties author and publisher and respective values
+book:
+    author: Joe Buck
+    publisher: random house
+
+# Booleans's declaration
+# Boolean true valid values 'yes, True, true'
+truth: yes
+another_truth: True
+truth_another: true
+
+# Boolean false valid values 'no, No, FALSE, false'
+false: no
+
+# string values
+string_eval: "This is it's quote"
+colon_string: "my coureses: one two three" # quotes avoid incompatibilities
+
+# multiple line strings 'the pipeline  is going to say to read in everything.
+# So that whole example will be read has a String '|'
+
+include_new_lines: |
+  uiouwyefiou oiu ioeyfiou
+  urhfiuewhfiuehfiu
+  oiehoeowihf
+  oifhuwehfuhoe
+
+# multiple lines string with ignore new line breaks '>'
+ignore_new_lines: >
+  this is
+  just
+  one long
+  String
+
+
